@@ -1,0 +1,10 @@
+<network>
+  <name>virtbr0</name>
+  <uuid>d11ca6ef-f596-2d7b-ad01-5f4cd0ff114c</uuid>
+  <forward mode='nat'/>
+  <bridge name='virtbr0' stp='on' delay='0' />
+  <mac address='52:54:00:28:F0:F0'/>
+  <ip address='192.168.99.1' netmask='255.255.255.0'>
+  </ip>
+</network>
+
